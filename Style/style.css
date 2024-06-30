@@ -1,0 +1,92 @@
+.homee
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6) ,rgba(0,0,0,0.6)), url(./../images.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.weathertext
+{
+    font-size: 16px;
+    color: white;
+}
+.tagline
+{
+    font-size: 13px;
+    color: white;
+    margin-top: -5px;
+}
+.navbar
+{
+    background-color: #1e202b;
+}
+.card-header
+{
+    background-color: #2d303d;
+    color: white;
+    border: none;
+}
+.card-body
+{
+    background-color: #323544;
+    height: 360px;
+    border: none;
+}
+.card-text , .card-icons
+{
+    color: #8e8f94;
+}
+.city-temp 
+{
+    font-size: 100px;
+    font-weight: bolder;
+}
+.city-name
+{
+    font-size: 35px;
+    color: gray;
+}
+.weather-icon{
+    color: blue;
+    font-size: 80px;
+}
+.weather-state
+{
+    color: #009ad8;
+    font-size: 30px;
+}
+.card-2-icon
+{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.card-2-temp
+{
+    color: white;
+    font-size: 20px;
+}
+.card-2-humidity
+{
+    color: grey;
+    font-size: 16px;
+    margin-top: -8px;
+}
+.card-2-state
+{
+    color: #009ad8;
+    padding-bottom: 30px;
+}
+.ssearch-bar{
+    width: 100%;
+    margin: auto;
+    
+}
+#searchhh
+{
+    background-color: #1e202b;
+    border: none;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+}
