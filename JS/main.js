@@ -22,7 +22,7 @@ search.addEventListener('keyup', function (e) {
 
 async function gettingDataCairo()
 {
-    var citiData = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=5ea1184c6fc344dd99712317232304&q=Cairo&days=3`)
+    var citiData = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=5ea1184c6fc344dd99712317232304&q=Cairo&days=3`)
     if (citiData.status != 400) {
         const CairooData = await citiData.json();
         initialDisplay(CairooData);
@@ -32,7 +32,7 @@ async function gettingDataCairo()
 
 async function gettingData(searchInput) {
     
-    var citiData = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=5ea1184c6fc344dd99712317232304&q=${searchInput}&days=3`)
+    var citiData = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=5ea1184c6fc344dd99712317232304&q=${searchInput}&days=3`)
     if (citiData.status != 400) {
         const finalCityData = await citiData.json();
         displayData(finalCityData);
